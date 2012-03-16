@@ -37,30 +37,3 @@
 [submodule "vendor/propel"]
 	path = vendor/propel
 	url = https://github.com/propelorm/Propel.git
-[submodule "vendor/bundles/Etf1/MsoBundle"]
-	path = vendor/bundles/Etf1/MsoBundle
-	url = git@prdhstweb001-adm:/usr/local/scm/git/symfony2/bundles/MsoBundle.git
-[submodule "vendors/bundles/FOS/OAuthServerBundle"]
-	path = vendors/bundles/FOS/OAuthServerBundle
-	url = git://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git
-[submodule "vendor/oauth2-php"]
-	path = vendor/oauth2-php
-	url = git://github.com/FriendsOfSymfony/oauth2-php.git
-[submodule "vendor/bundles/FOS/OAuthServerBundle"]
-	path = vendor/bundles/FOS/OAuthServerBundle
-	url = git://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git
-[submodule "vendor/propel-behaviors/TypehintableBehavior"]
-	path = vendor/propel-behaviors/TypehintableBehavior
-	url = http://github.com/willdurand/TypehintableBehavior.git
-[submodule "vendors/doctrine-dbal"]
-	path = vendors/doctrine-dbal
-	url = http://github.com/doctrine/dbal.git
-[submodule "vendor/doctrine"]
-	path = vendor/doctrine
-	url = http://github.com/doctrine/doctrine2.git
-[submodule "vendor/bundles/Doctrine/Bundle/DoctrineBundle"]
-	path = vendor/bundles/Doctrine/Bundle/DoctrineBundle
-	url = https://github.com/doctrine/DoctrineBundle.git
-[submodule "vendor/bundles/Etf1/LoginBundle"]
-	path = vendor/bundles/Etf1/LoginBundle
-	url = git@prdhstweb001-adm:/usr/local/scm/git/symfony2/bundles/LoginBundle.git

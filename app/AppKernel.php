@@ -13,15 +13,9 @@ class AppKernel extends Kernel
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
-            new Symfony\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new Propel\PropelBundle\PropelBundle(),
-            new Etf1\MsoBundle\Etf1MsoBundle(),
-            new Etf1\LoginBundle\Etf1LoginBundle(),
-			new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
-			new Etf1\OAuthServerBundle\Etf1OAuthServerBundle(),
-			new Etf1\ApiBundle\Etf1ApiBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
