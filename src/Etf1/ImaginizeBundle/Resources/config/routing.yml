@@ -1,0 +1,3 @@
+Etf1ImaginizeBundle_index_index:
+    pattern:  /
+    defaults: { _controller: Etf1ImaginizeBundle:Index:index }

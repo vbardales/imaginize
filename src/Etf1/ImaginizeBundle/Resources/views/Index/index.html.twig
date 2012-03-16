@@ -1,0 +1,33 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+<div class="row">
+    <div id="image-container" class="span12">
+        <fieldset>
+            <legend>Image</legend>
+        </fieldset>
+        <div id="image"></div>
+    </div>
+</div>
+<div class="row">
+    <div id="create-comment-container" class="span6">
+        <fieldset>
+            <legend>Laissez votre commentaire</legend>
+            <div id="create-comment"></div>
+        </fieldset>
+    </div>
+    <div id="result-container" class="span6">
+        <fieldset>
+            <legend>Nombre de commentaires en cours :</legend>
+        </fieldset>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+{% endblock %}
