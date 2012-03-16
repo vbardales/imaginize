@@ -1,0 +1,66 @@
+[submodule "vendor/symfony"]
+	path = vendor/symfony
+	url = http://github.com/symfony/symfony.git
+[submodule "vendor/twig"]
+	path = vendor/twig
+	url = http://github.com/fabpot/Twig.git
+[submodule "vendor/monolog"]
+	path = vendor/monolog
+	url = http://github.com/Seldaek/monolog.git
+[submodule "vendor/doctrine-common"]
+	path = vendor/doctrine-common
+	url = http://github.com/doctrine/common.git
+[submodule "vendor/assetic"]
+	path = vendor/assetic
+	url = http://github.com/kriswallsmith/assetic.git
+[submodule "vendor/bundles/Symfony/Bundle/AsseticBundle"]
+	path = vendor/bundles/Symfony/Bundle/AsseticBundle
+	url = http://github.com/symfony/AsseticBundle.git
+[submodule "vendor/twig-extensions"]
+	path = vendor/twig-extensions
+	url = http://github.com/fabpot/Twig-extensions.git
+[submodule "vendor/bundles/Sensio/Bundle/FrameworkExtraBundle"]
+	path = vendor/bundles/Sensio/Bundle/FrameworkExtraBundle
+	url = http://github.com/sensio/SensioFrameworkExtraBundle.git
+[submodule "vendor/bundles/JMS/SecurityExtraBundle"]
+	path = vendor/bundles/JMS/SecurityExtraBundle
+	url = http://github.com/schmittjoh/JMSSecurityExtraBundle.git
+[submodule "vendor/metadata"]
+	path = vendor/metadata
+	url = http://github.com/schmittjoh/metadata.git
+[submodule "vendor/bundles/Propel/PropelBundle"]
+	path = vendor/bundles/Propel/PropelBundle
+	url = https://github.com/propelorm/PropelBundle.git
+[submodule "vendor/phing"]
+	path = vendor/phing
+	url = https://github.com/Xosofox/phing
+[submodule "vendor/propel"]
+	path = vendor/propel
+	url = https://github.com/propelorm/Propel.git
+[submodule "vendor/bundles/Etf1/MsoBundle"]
+	path = vendor/bundles/Etf1/MsoBundle
+	url = git@prdhstweb001-adm:/usr/local/scm/git/symfony2/bundles/MsoBundle.git
+[submodule "vendors/bundles/FOS/OAuthServerBundle"]
+	path = vendors/bundles/FOS/OAuthServerBundle
+	url = git://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git
+[submodule "vendor/oauth2-php"]
+	path = vendor/oauth2-php
+	url = git://github.com/FriendsOfSymfony/oauth2-php.git
+[submodule "vendor/bundles/FOS/OAuthServerBundle"]
+	path = vendor/bundles/FOS/OAuthServerBundle
+	url = git://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git
+[submodule "vendor/propel-behaviors/TypehintableBehavior"]
+	path = vendor/propel-behaviors/TypehintableBehavior
+	url = http://github.com/willdurand/TypehintableBehavior.git
+[submodule "vendors/doctrine-dbal"]
+	path = vendors/doctrine-dbal
+	url = http://github.com/doctrine/dbal.git
+[submodule "vendor/doctrine"]
+	path = vendor/doctrine
+	url = http://github.com/doctrine/doctrine2.git
+[submodule "vendor/bundles/Doctrine/Bundle/DoctrineBundle"]
+	path = vendor/bundles/Doctrine/Bundle/DoctrineBundle
+	url = https://github.com/doctrine/DoctrineBundle.git
+[submodule "vendor/bundles/Etf1/LoginBundle"]
+	path = vendor/bundles/Etf1/LoginBundle
+	url = git@prdhstweb001-adm:/usr/local/scm/git/symfony2/bundles/LoginBundle.git

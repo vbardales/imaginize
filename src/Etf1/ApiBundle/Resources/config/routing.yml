@@ -1,0 +1,3 @@
+api:
+    pattern:  /api/{name}
+    defaults: { _controller: Etf1ApiBundle:index:index }
