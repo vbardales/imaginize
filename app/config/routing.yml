@@ -2,8 +2,3 @@
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #   prefix:   /_internal
-fos_oauth:
-    resource: "@FOSOAuthServerBundle/Resources/config/routing.yml"
-
-etf1_api:
-    resource: "@Etf1ApiBundle/Resources/config/routing.yml"

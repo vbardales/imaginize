@@ -1,9 +1,0 @@
-etf1_oauth_server_authorize:
-    pattern:  /oauth/v2/authorize
-    defaults: { _controller: etf1_oauth_server.controller.server:authorizeAction }
-fos_oauth_server_token:
-    pattern:    /oauth/v2/token
-    defaults: { _controller: etf1_oauth_server.controller.server:tokenAction }
-etf1_oauth_server_client:
-    pattern:  /oauth/v2/client
-    defaults: { _controller: Etf1OAuthServerBundle:Client:addClient }

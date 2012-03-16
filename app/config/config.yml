@@ -35,21 +35,6 @@ assetic:
         # yui_css:
         #     jar: %kernel.root_dir%/java/yuicompressor-2.4.2.jar
 
-# Doctrine Configuration
-doctrine:
-    dbal:
-        driver:   %database_driver%
-        host:     %database_host%
-        port:     %database_port%
-        dbname:   %database_name%
-        user:     %database_user%
-        password: %database_password%
-        charset:  UTF8
-
-    orm:
-        auto_generate_proxy_classes: %kernel.debug%
-        auto_mapping: true
-
 jms_security_extra:
 #    secure_controllers:  true
     secure_all_services: false
@@ -57,14 +42,3 @@ jms_security_extra:
 propel:
     path:       "%kernel.root_dir%/../vendor/propel"
     phing_path: "%kernel.root_dir%/../vendor/phing"
-
-fos_oauth_server:
-    db_driver:  orm
-    oauth_client_class:        Etf1\OAuthServerBundle\Entity\Client
-    #propel_client_class:       FOS\OAuthServerBundle\Propel\Client
-    oauth_access_token_class:  Etf1\OAuthServerBundle\Entity\AccessToken
-    #propel_access_token_class: FOS\OAuthServerBundle\Propel\AccessToken
-    oauth_auth_code_class:     Etf1\OAuthServerBundle\Entity\AuthCode
-    #propel_auth_code_class:    FOS\OAuthServerBundle\Propel\AuthCode.
-    oauth_options:
-      supported_scopes: a

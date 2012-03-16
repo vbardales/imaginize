@@ -1,6 +1,0 @@
-services:
-  etf1_oauth_server.controller.server:
-    class:     Etf1\OAuthServerBundle\Controller\ServerController
-    arguments: [@fos_oauth_server.server_service]
-    calls:
-            - [ setServiceContainer, [ @service_container ] ]

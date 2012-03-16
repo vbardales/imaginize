@@ -21,17 +21,11 @@ monolog:
 
 propel:
     dbal:
-        default_connection:       mso
+        default_connection:       imaginize
         connections:
-           mso:
-               driver:               oracle
-               user:                 mso
-               password:             mso
-               dsn:                  oci:dbname=deviota.world
+           imaginize:
+               driver:               mysql
+               user:                 imaginize
+               password:             imaginize
+               dsn:                  mysql:host=localhost;dbname=imaginize
                options:              {}
-#           oauth:
-#               driver:               mysql
-#               user:                 oauth
-#               password:             oauth
-#               dsn:                  mysql:host=localhost;dbname=oauth
-#               options:              {}
