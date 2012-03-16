@@ -22,6 +22,17 @@
     git=http://github.com/doctrine/doctrine2.git
     version=2.1.6
 
+[PropelBundle]
+    git=https://github.com/propelorm/PropelBundle.git
+    target=/bundles/Propel/PropelBundle
+    version=origin/2.0
+
+[phing]
+    git=https://github.com/Xosofox/phing
+
+[propel]
+    git=https://github.com/propelorm/Propel.git
+
 [swiftmailer]
     git=http://github.com/swiftmailer/swiftmailer.git
     version=v4.1.5
@@ -61,3 +72,12 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
+
+[Imagine]
+    git=http://github.com/avalanche123/Imagine.git
+    target=imagine
+    version=v0.2.0
+
+[LiipImagineBundle]
+    git=http://github.com/liip/LiipImagineBundle.git
+    target=bundles/Liip/ImagineBundle

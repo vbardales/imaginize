@@ -1,2 +1,6 @@
 etf1_imaginize:
     resource: "@Etf1ImaginizeBundle/Resources/config/routing.yml"
+
+_imagine:
+    resource: .
+    type:     imagine
