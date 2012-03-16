@@ -37,3 +37,9 @@
 [submodule "vendor/propel"]
 	path = vendor/propel
 	url = https://github.com/propelorm/Propel.git
+[submodule "vendor/bundles/Sensio/Bundle/DistributionBundle"]
+	path = vendor/bundles/Sensio/Bundle/DistributionBundle
+	url = http://github.com/sensio/SensioDistributionBundle.git
+[submodule "vendor/bundles/JMS/AopBundle"]
+	path = vendor/bundles/JMS/AopBundle
+	url = http://github.com/schmittjoh/JMSAopBundle.git
