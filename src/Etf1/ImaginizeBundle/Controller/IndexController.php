@@ -20,6 +20,7 @@ class IndexController extends Controller
 {
     public function indexAction(Request $request)
     {
+        header("Cache-Control: no-cache, must-revalidate");
         $comment = new Comment();
         $form = $this->createFormBuilder($comment)
             ->add('value', 'text')
@@ -32,7 +33,7 @@ class IndexController extends Controller
 
             if ($form->isValid()) {
                 $comment->save();
-                if ($numberOfComments < IMAGE_PER_LINE * IMAGE_PER_COLUMN) {
+                if ($numberOfComments <= IMAGE_PER_LINE * IMAGE_PER_COLUMN) {
                     $this->createImage(++$numberOfComments);
                 }
             }
