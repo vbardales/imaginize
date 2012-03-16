@@ -1,0 +1,13 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+<form action="{{ path('Etf1ImaginizeBundle_admin_index') }}" method="post" {{ form_enctype(form) }} {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+
+    <input type="submit" class="btn btn-primary" />
+</form>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+{% endblock %}

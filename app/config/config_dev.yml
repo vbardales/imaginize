@@ -28,7 +28,7 @@ propel:
         connections:
            imaginize:
                driver:               mysql
-               user:                 imaginize
-               password:             imaginize
+               user:                 root
+               password:             
                dsn:                  mysql:host=localhost;dbname=imaginize
                options:              {}

@@ -1,3 +1,6 @@
 Etf1ImaginizeBundle_index_index:
     pattern:  /
     defaults: { _controller: Etf1ImaginizeBundle:Index:index }
+Etf1ImaginizeBundle_admin_index:
+    pattern:  /admin
+    defaults: { _controller: Etf1ImaginizeBundle:Admin:index }

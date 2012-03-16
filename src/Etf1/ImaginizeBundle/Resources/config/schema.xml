@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<database name="imaginize" namespace="Etf1\ImaginizeBundle\Model" defaultIdMethod="native">
+  <table name="comment">
+    <column name="Id" type="integer" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="Value" phpName="Value" type="VARCHAR" size="255" required="true"/>
+  </table>
+  <table name="displayedNumber" phpName="DisplayedNumber">
+    <column name="Id" type="integer" primaryKey="true" required="true" autoIncrement="true" />
+    <column name="Numbers" type="array" />
+  </table>
+</database>
